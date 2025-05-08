@@ -23,7 +23,7 @@ Você precisará ter o Go (linguagem de programação) instalado no seu computad
 1.  **Descompacte:** Extraia os arquivos do `.zip` para uma pasta no seu computador.
 2.  **Abra o Terminal:** Navegue até essa pasta usando o terminal (ou prompt de comando):
     ```bash
-    cd caminho/para/a/pasta/hd_address_generator
+    cd caminho/para/a/pasta/gerador_enderecos_xprv
     ```
 3.  **Execute o Programa:** Digite o seguinte comando e pressione Enter:
     ```bash
@@ -41,18 +41,18 @@ Se preferir, você pode compilar o programa em um executável único:
 2.  Execute o comando:
     ```bash
     # Para Linux/macOS
-    go build -o hd_address_generator_cli
+    go build -o gerador_enderecos_xprv_cli
 
     # Para Windows
-    go build -o hd_address_generator_cli.exe
+    go build -o gerador_enderecos_xprv.exe
     ```
 3.  Depois, em vez de `go run main.go`, você pode executar diretamente o arquivo criado:
     ```bash
     # Para Linux/macOS
-    ./hd_address_generator_cli
+    ./gerador_enderecos_xprv_cli
 
     # Para Windows
-    .\hd_address_generator_cli.exe
+    .\gerador_enderecos_xprv_cli.exe
     ```
 
 ## Detalhes Técnicos (Para Curiosos)
